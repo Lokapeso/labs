@@ -11,3 +11,9 @@ Available : [Supported Sites](https://github.com/yt-dlp/yt-dlp/blob/master/suppo
 ```
 yt-dlp -F URL
 ```
+
+### Download only audio from youtube
+
+```
+yt-dlp -f 'ba' -x --audio-format mp3 -o '~/downloads/%(title)s.%(ext)s' https://www.youtube.com/watch?v=S9bCLPwzSC0
+```
